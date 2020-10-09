@@ -19,5 +19,35 @@ body{
 
 .header{
     height: 100vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(color(primary), 0.5),
+        rgba(color(primary-light), 0.5)
+    ), 
+    url(img/headphones-bg.jpg);
 
 }
+
+.header-primary{
+    text-align: center;
+    font-weight: 700;
+    columns: #333333;
+}
+
+.header-primary-main{
+    font-size: 10rem; //100 px   1rem = 10px
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    display: block;
+}
+
+.header-primary-sub{
+    font-size: 4rem;
+}
+
+
+
+
+
+
+

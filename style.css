@@ -9,5 +9,25 @@ body {
 
 .header {
   height: 100vh;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(69, 162, 158, 0.5)), to(rgba(102, 252, 241, 0.5))), url(img/headphones-bg.jpg);
+  background-image: linear-gradient(to right bottom, rgba(69, 162, 158, 0.5), rgba(102, 252, 241, 0.5)), url(img/headphones-bg.jpg);
+}
+
+.header-primary {
+  text-align: center;
+  font-weight: 700;
+  -webkit-columns: #333333;
+          columns: #333333;
+}
+
+.header-primary-main {
+  font-size: 10rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  display: block;
+}
+
+.header-primary-sub {
+  font-size: 4rem;
 }
 /*# sourceMappingURL=style.css.map */
