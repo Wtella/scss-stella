@@ -14,7 +14,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-size: 62.5%;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header{
@@ -25,13 +25,21 @@ body{
         rgba(color(primary-light), 0.5)
     ), 
     url(img/headphones-bg.jpg);
+    background-size: cover;
+    position: relative;
+}
 
+.header-text-box{
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 
 .header-primary{
     text-align: center;
     font-weight: 700;
-    columns: #333333;
+    columns: #ffffff;
 }
 
 .header-primary-main{
