@@ -27,6 +27,7 @@ body{
     url(img/headphones-bg.jpg);
     background-size: cover;
     position: relative;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
 }
 
 .header-text-box{
@@ -39,7 +40,7 @@ transform: translate(-50%, -50%);
 .header-primary{
     text-align: center;
     font-weight: 700;
-    columns: #ffffff;
+    color:#ffffff;
 }
 
 .header-primary-main{
@@ -47,6 +48,7 @@ transform: translate(-50%, -50%);
     text-transform: uppercase;
     letter-spacing: 1rem;
     display: block;
+    text-shadow: #444444 5px 6px;
 }
 
 .header-primary-sub{

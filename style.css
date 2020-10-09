@@ -14,6 +14,8 @@ body {
   background-image: linear-gradient(to right bottom, rgba(69, 162, 158, 0.5), rgba(102, 252, 241, 0.5)), url(img/headphones-bg.jpg);
   background-size: cover;
   position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
 }
 
 .header-text-box {
@@ -27,8 +29,7 @@ body {
 .header-primary {
   text-align: center;
   font-weight: 700;
-  -webkit-columns: #ffffff;
-          columns: #ffffff;
+  color: #ffffff;
 }
 
 .header-primary-main {
@@ -36,6 +37,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 1rem;
   display: block;
+  text-shadow: #444444 5px 6px;
 }
 
 .header-primary-sub {
